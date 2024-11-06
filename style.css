@@ -1,0 +1,55 @@
+body {
+    background-image: url("https://images.ctfassets.net/hrltx12pl8hq/4HekqQXaTDHb8stWqtu0IO/a4f958a91a90af156162c0519cb75bce/video-backgrounds-shutterstock_613720037.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    
+}
+
+h1 {
+    font-style: oblique;
+    font-size: 70px;
+    margin-top: 120px;
+}
+
+#rainPlay , #birdPlay , #guitarPlay {
+    display: none;
+}
+
+.icons {
+    margin-top: 80px;
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+#study {
+    font-size: 20px;
+}
+
+#counter { 
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+#count-button {
+    margin-top: 50px;
+    background-color: transparent;
+    padding: 25px 50px;
+    color: white;
+    border: 5px solid white;
+    border-radius: 30px;
+}
+
+#count-button:hover {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    transition: all 0.1s ease;
+}
+
+#volume-input {
+    margin-top: 30px;
+}

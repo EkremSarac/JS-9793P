@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <title>Full Focus</title>
+</head>
+<body>
+  <div class="focus">
+    <h1>FOCUS TİME</h1>
+    <div id="study">Çalışmaya başladığınızdan beri telefonunuz <span id="counter">0</span> kere dikkatinizi dağıttı
+    </div>
+    <div>
+      <button id="count-button">Buraya Tıkla!</button>
+    </div>
+    <div class="icons">
+      <i id="rainIcon" class="fa-solid fa-cloud-rain"></i>
+      <audio id="rainPlay" controls>
+        <source src="assets/rain.mp3" type="audio/mp3">
+      </audio>
+      <i id="birdIcon" class="fa-solid fa-dove"></i>
+      <audio id="birdPlay" controls>
+        <source src="assets/bird.mp3" type="audio/mp3">
+      </audio>
+      <i id="guitarIcon" class="fa-solid fa-guitar"></i>
+      <audio id="guitarPlay" controls>
+        <source src="assets/guitar.mp3" type="audio/mp3">
+      </audio>
+    </div>
+    <input id="volume-input" type="range">
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
